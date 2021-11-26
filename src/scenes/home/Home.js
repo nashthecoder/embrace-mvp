@@ -12,22 +12,26 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: colors.lightGrayPurple,
+    backgroundColor: colors.cream,
   },
   title: {
     fontSize: 24,
     marginBottom: 20,
+    marginTop: 60,
+    color: '#562349',
+    fontWeight: 'bold',
+    fontSize: 80,
   },
 })
 
 const Home = ({ navigation }) => (
   <View style={styles.root}>
     <StatusBar barStyle="light-content" />
-    <Text style={styles.title}>Home</Text>
+    <Text style={styles.title}>embrace.</Text>
     <Button
-      title="Go to Details"
-      color="white"
-      backgroundColor={colors.lightPurple}
+      title="Start my journey..."
+      color={colors.darkPurple}
+      backgroundColor={colors.lightYellow}
       onPress={() => {
         navigation.navigate('Details', { from: 'Home' })
       }}

@@ -30,7 +30,7 @@ const DrawerMenu = (props) => (
       <FontIcon.Button
         name="times"
         size={20}
-        color={colors.gray}
+        color={colors.yellow}
         backgroundColor="white"
         onPress={() => {
           props.navigation.dispatch(DrawerActions.closeDrawer())

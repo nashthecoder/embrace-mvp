@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: colors.lightGrayPurple,
+    backgroundColor: colors.cream,
   },
   title: {
     fontSize: 24,
@@ -25,11 +25,17 @@ const Details = ({ route, navigation }) => {
   return (
     <View style={styles.root}>
       <StatusBar barStyle="light-content" />
-      <Text style={styles.title}>{`Details (from ${from})`}</Text>
+      <Text style={styles.title}>{`SIGN UP`}</Text>
       <Button
-        title="Go Back"
-        color="white"
-        backgroundColor={colors.pink}
+        title="Sign me up!"
+        color="black"
+        backgroundColor={colors.lightYellow}
+        onPress={navigation.goBack}
+      />
+      <Button
+        title="I already have an account"
+        color="black"
+        backgroundColor={colors.lightYellow}
         onPress={navigation.goBack}
       />
     </View>
