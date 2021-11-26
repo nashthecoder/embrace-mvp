@@ -1,7 +1,20 @@
 ## Embrace MVP
 
+Used [Expo link](https://expo.io/@wataru/react-native-boilerplate) to generate the foundation code.
 
-- [Expo link](https://expo.io/@wataru/react-native-boilerplate)
+## UI Wireframes
+
+![Let's Talk](./assets/images/Home-screen.png)
+![Sign Up](./assets/images/Sign-up-screens.png)
+![Onboarding1](./assets/images/Onboarding1-screens.png)
+![Onboarding2](./assets/images/Onboarding2-screens.png)
+![Explore](./assets/images/Explore-screens.png)
+![Mindfulness](./assets/images/Mindfulness-screens.png) 
+![Let's Talk](./assets/images/Chat-screen.png)
+
+
+
+
 
 
 ## Libraries

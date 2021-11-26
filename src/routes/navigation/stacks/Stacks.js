@@ -74,3 +74,4 @@ export const ProfileNavigator = () => (
     />
   </Stack.Navigator>
 )
+
